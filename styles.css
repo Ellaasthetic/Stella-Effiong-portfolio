@@ -174,7 +174,7 @@ ul .btn-link {
 
 /* Header */
 header {
-  overflow-x: hidden;
+  overflow-y: hidden;
   width: 100%;
 }
 
