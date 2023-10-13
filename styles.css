@@ -542,28 +542,19 @@ form button {
   .project-card h3 {
     font-size: 1.2rem;
   }
+
+  .skill-icon{
+    font-size: 13px;
+  }
+
+  .icon{
+    font-size: 10px;
+  }
+
+
 }
 
-@media (max-width: 700px) {
-  .testimonials {
-    flex-direction: column;
-  }
 
-  .testimonial-card:first-child {
-    border-right: 1px solid var(--dark-border);
-    border-top-right-radius: 12px;
-    border-bottom-left-radius: 0;
-    border-bottom: none;
-  }
-
-  .testimonial-card:last-child {
-    border-left: 1px solid var(--dark-border);
-    border-bottom-left-radius: 12px;
-    border-bottom-right-radius: 12px;
-    border-top-right-radius: 0;
-    border-top: none;
-  }
-}
 
 /* Small smartphones */
 @media (max-width: 450px) {
@@ -610,6 +601,14 @@ form button {
 
   .social-links {
     gap: 1rem;
+  }
+
+  .skill-icon{
+    font-size: 10px;
+  }
+
+  .icon{
+    font-size: 8px;
   }
 }
 
